@@ -1,0 +1,45 @@
+/*HERANÇA E ESPECIFICIDADE
+
+###### HERANÇA ######
+
+body {
+	color: red;
+	border: 1px solid blue;
+}*/
+
+  /* ###### ESPECIFICIDADE ###### 
+ ORDEM DE PRECEDENCIA DOS SELETORES
+ SELETORES IGUAI O ULTIMO É SEMPRE APLICADO
+
+/* 
+p {
+	color: red !important; !important == define que será aplicado primeiro
+}
+
+p {
+	color: blue;
+} */
+
+/*se um seletor for mais especifico que o outro
+a regra mais especifica sera aplicada
+tera precedencia sobre regras mais gerais*/
+
+* {
+	color: red; /*regra geral*/
+}
+
+h2 {
+	color: blue; /*regra específica*/
+}
+
+h2.verde {
+	color: green; /*a classe é genérica*/
+}
+
+h2#amarelo {
+	color: yellow; /*o id é específico*/
+}
+
+
+
+
